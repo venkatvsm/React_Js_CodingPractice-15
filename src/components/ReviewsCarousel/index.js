@@ -37,7 +37,7 @@ class ReviewsCarousel extends Component {
             >
               <img
                 src="https://assets.ccbp.in/frontend/react-js/left-arrow-img.png"
-                className="RighttIcon"
+                className="Icon"
                 alt="left arrow"
               />
             </button>
@@ -55,7 +55,7 @@ class ReviewsCarousel extends Component {
             >
               <img
                 src="https://assets.ccbp.in/frontend/react-js/right-arrow-img.png"
-                className="RighttIcon"
+                className="Icon"
                 alt="right arrow"
               />
             </button>
