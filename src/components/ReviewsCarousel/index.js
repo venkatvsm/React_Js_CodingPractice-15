@@ -33,7 +33,7 @@ class ReviewsCarousel extends Component {
               type="button"
               onClick={this.LeftIconTriggered}
               className="btnEl"
-              testid="left Arrow"
+              data-testid="leftArrow"
             >
               <img
                 src="https://assets.ccbp.in/frontend/react-js/left-arrow-img.png"
@@ -51,12 +51,12 @@ class ReviewsCarousel extends Component {
               type="button"
               onClick={this.RightIconTriggered}
               className="btnEl"
+               data-testid="rightArrow"
             >
               <img
                 src="https://assets.ccbp.in/frontend/react-js/right-arrow-img.png"
                 className="RighttIcon"
                 alt="right arrow"
-                testid="right Arrow"
               />
             </button>
           </div>
