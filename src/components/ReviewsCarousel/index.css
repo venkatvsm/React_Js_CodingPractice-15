@@ -12,11 +12,15 @@
 .card_container {
   background-color: transparent;
   text-align: center;
+  
+  
 }
 .heading_review {
   color: #ffffff;
+  font-size: 45px;
 }
 .ProfilePhoto {
+  width: 30%;
 }
 .itemsContainer {
   display: flex;
@@ -24,11 +28,9 @@
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  border-style: solid;
 }
-.LeftIcon {
-  width: 50px;
-  height: 50px;
+.Icon {
+  width: 160%;
 }
 .btnEl {
   background-color: transparent;
@@ -37,4 +39,21 @@
   cursor: pointer;
 }
 .bodyContainer {
+}
+.username {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 35px;
+}
+.comapnyname {
+  font-size: 25px;
+  font-weight: 500;
+}
+.description {
+  font-size: 21px;
+  font-weight: 500;
+  width: 900px;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
 }
